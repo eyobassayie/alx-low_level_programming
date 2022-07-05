@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_alphabet_x10 - Print alphabet x10, in lowercase followed by a new line
