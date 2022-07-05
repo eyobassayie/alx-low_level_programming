@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * print_times_table - This is a absolute value
- *
- * @n: This is the entry
- *
- * Return: Always 0.
+ * print_times_table - prints the times table for n.
+ * @n: The multiplication table requested.
+ * Return: Nothing.
  */
 void print_times_table(int n)
 {
