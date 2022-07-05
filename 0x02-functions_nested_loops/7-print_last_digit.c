@@ -6,7 +6,7 @@
  * @n: entry point
  *
  * Return: return las digit
- **/
+ */
 
 int print_last_digit(int nld)
 {
