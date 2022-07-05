@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_times_table - This is a absolute value
  *
@@ -7,7 +6,6 @@
  *
  * Return: Always 0.
  */
-
 void print_times_table(int n)
 {
 	if (n >= 0 && n <= 15)
