@@ -1,27 +1,24 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: Calculates the sum of even fib numbers lower than 4,000,000
- * Return: Always Zero
- */
+  * main - sum even fibonacci numbers under 4 million.
+  * Return: Nothing.
+  */
 int main(void)
 {
-	long before, after, sum;
-	int count = 0;
+	unsigned long count, i, j, k, sums;
 
-	before = 1;
-	after = 2;
-	sum = 2;
-	while (count <= 29)
+	i = sums = 0;
+	j = 1;
+	for (count = 0; count < 50; count++)
 	{
-		long fibonnaci;
-		fibonnaci = before + after;
-		if ((fibonnaci % 2) == 0)
-			sum += fibonnaci;
-		before = after;
-		after = fibonnaci;
-		count++;
+		k = i + j;
+		i = j;
+		j = k;
+		if (k % 2 == 0 && k < 4000000)
+		{
+			sums += k;
+		}
 	}
-	printf("%ld\n", sum);
+	printf("%lu\n", sums);
 	return (0);
 }
