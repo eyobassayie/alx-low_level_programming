@@ -35,6 +35,8 @@ void print_remaining_days(int month, int day, int year)
         }
     }
     int main(void)
+    {
     int day = convert_day(04,01);
     print_remaining_days(4,day,1997);
+    }
 }
